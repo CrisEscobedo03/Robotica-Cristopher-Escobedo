@@ -146,7 +146,7 @@ drawBox(p1_init, p2_init, p3_init, p4_init,
         p5_init, p6_init, p7_init, p8_init)
 
 [p1_rot, p2_rot, p3_rot, p4_rot, p5_rot, p6_rot, p7_rot, p8_rot] = rotate_box(p1_init, p2_init, p3_init, p4_init,
-        p5_init, p6_init, p7_init, p8_init,axis='y', angle = 15)
+        p5_init, p6_init, p7_init, p8_init,axis='y', angle = 45)
 
 
 drawBox(p1_rot, p2_rot, p3_rot, p4_rot, p5_rot, p6_rot, p7_rot, p8_rot,color='red')
