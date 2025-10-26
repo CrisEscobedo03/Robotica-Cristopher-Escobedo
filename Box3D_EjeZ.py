@@ -12,13 +12,7 @@ ax = plt.axes(projection = "3d")
 
 
 def setaxis(x1, x2, y1, y2, z1, z2):
-    # this function is used to fix the view to the values of input arguments
-    # -----------------------------------------------------------------------
-    # ARGUMENTS
-    # x1, x2 -> numeric value
-    # y1, y2 -> numeric value
-    # y1, z2 -> numeric value
-    # -----------------------------------------------------------------------
+
     ax.set_xlim3d(x1,x2)
     ax.set_ylim3d(y1,y2)
     ax.set_zlim3d(z1,z2)
